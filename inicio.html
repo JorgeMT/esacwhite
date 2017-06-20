@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>eduroam na ESAC</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+	<link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+
+<div class="container-fluid">
+	<nav id="mainNav" class="navbar fixed-top">  
+	        <div class="row" style="height: inherit">
+				<div class="col-10" style="height: inherit">
+					<a href="http://www.esac.pt"><img id="logo1" src="imagens/logo_sec_positivo_semfundo.png" alt="ESAC"></a>
+				</div>
+                <div class="col-2 hidden-sm-up" style="height: inherit">
+					 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+				</div>
+               
+			</div>
+	</nav>
+</div>
+<div class="container-fluid">
+    <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="inicio.html">Inicio</a>
+          <a href="requisitos.html">Requisitos</a>
+          <a href="configuracao.html">Configuração</a>
+          <a href="cobertura.html">Cobertura</a>
+          <a href="faqs.html">FAQ's</a>
+          <a href="condicoes.html">Condições</a>
+          <a href="estatisticas.html">Estatísticas</a>
+          <a href="contatos.html">Contatos</a>
+          <a href="vpn.html">VPN</a>
+          <a href="links.html">Link's</a>
+
+    </div>
+        <div id="main" class="row">
+			<div class="hidden-xs-down col-4 col-md-3 px-lg-5" id="menu">
+				<nav id="nav">
+			<ul>
+			<li><a class="link-3" href="inicio.html">Inicio</a></li>
+			<li><a class="link-3" href="requisitos.html">Requisitos</a></li>
+			<li><a class="link-3" href="configuracao.html">Configuração</a></li>
+			<li><a class="link-3" href="cobertura.html">Cobertura</a></li>
+			<li><a class="link-3" href="faqs.html">FAQ's</a></li>
+			<li><a class="link-3" href="condicoes.html">Condições</a></li>
+			<li><a class="link-3" href="estatisticas.html">Estatísticas</a></li>	
+			<li><a class="link-3" href="contatos.html">Contatos</a></li>	
+			<li><a class="link-3" href="vpn.html">VPN</a></li>
+			<li><a class="link-3" href="links.html">Link's</a></li>
+			</ul>																			
+				</nav>
+			</div>
+			<div class="ml-auto col-12 col-sm-8 col-md-9">
+
+
+			
+					<div class="px-2 titulo">
+					Inicio
+					</div>
+					<hr>			
+
+				
+					<p class="px-2">
+					A Escola Superior Agrária de Coimbra disponibiliza o acesso à <b>Rede Sem Fios (Wireless)</b> aos seus funcionários docentes, não docentes e discentes.
+					<br></br>
+					A mobilidade da <b>Rede Sem Fios (Wireless)</b> será estendida a nível europeu, disponibilizando acesso à rede <b><ins>eduroam</ins></b> aos utilizadores deslocados de outras instituições de ensino aderente a esta iniciativa.
+					<br></br>
+					O projecto da <b>Rede Sem Fios (Wireless)</b> é parte integrante da iniciativa <b>e-U Campus Virtual</b>.
+					<br></br>
+					Envolve Serviços, Conteúdos, Aplicações e Rede de Comunicações Móveis (dentro e fora da Universidade) para estudantes, funcionários docentes e não docentes do Ensino Superior, que incentiva e facilita a produção, acesso e partilha de Conhecimento.
+					<br></br>
+					A <b>Rede Sem Fios (Wireless)</b> permite a mobilidade aos seus utilizadores nas áreas cobertas, assegurando, deste modo, o acesso a serviços e conteúdos disponibilizados bem como acesso à Internet.
+					<br></br>
+					A <b>Rede Sem Fios (Wireless)</b> funciona através de ondas de rádio, não sendo necessário qualquer tipo de cabo para se efectuar a ligação.
+					</p>
+
+				
+			</div>
+		</div>
+</div>
+
+<!--Espaçamento conteudo e footer -->
+<div class="clearfix" style="height:3rem;"> 
+</div>
+
+
+<footer>
+  <div class="container"> <h6>© 2017, Escola Superior Agrária de Coimbra.</h6>
+  </div>
+</footer>
+
+
+<!-- NAVBAR SCRIPT-->
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "500px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>

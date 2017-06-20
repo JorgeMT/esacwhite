@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>eduroam na ESAC</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+	<link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+
+<div class="container-fluid">
+	<nav id="mainNav" class="navbar fixed-top">  
+	        <div class="row" style="height: inherit">
+				<div class="col-10" style="height: inherit">
+					<a href="http://www.esac.pt"><img id="logo1" src="imagens/logo_sec_positivo_semfundo.png" alt="ESAC"></a>
+				</div>
+                <div class="col-2 hidden-sm-up" style="height: inherit">
+					 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+				</div>
+               
+			</div>
+	</nav>
+</div>
+<div class="container-fluid">
+    <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="inicio.html">Inicio</a>
+          <a href="requisitos.html">Requisitos</a>
+          <a href="configuracao.html">Configuração</a>
+          <a href="cobertura.html">Cobertura</a>
+          <a href="faqs.html">FAQ's</a>
+          <a href="condicoes.html">Condições</a>
+          <a href="estatisticas.html">Estatísticas</a>
+          <a href="contatos.html">Contatos</a>
+          <a href="vpn.html">VPN</a>
+          <a href="links.html">Link's</a> <!-- MUDAR! NAO APARECE TUDO NA JANELA-->
+
+    </div>
+        <div id="main" class="row">
+			<div class="hidden-xs-down col-4 col-md-3 px-lg-5" id="menu">
+				<nav id="nav">
+			<ul>
+			<li><a class="link-3" href="inicio.html">Inicio</a></li>
+			<li><a class="link-3" href="requisitos.html">Requisitos</a></li>
+			<li><a class="link-3" href="configuracao.html">Configuração</a></li>
+			<li><a class="link-3" href="cobertura.html">Cobertura</a></li>
+			<li><a class="link-3" href="faqs.html">FAQ's</a></li>
+			<li><a class="link-3" href="condicoes.html">Condições</a></li>
+			<li><a class="link-3" href="estatisticas.html">Estatísticas</a></li>	
+			<li><a class="link-3" href="contatos.html">Contatos</a></li>	
+			<li><a class="link-3" href="vpn.html">VPN</a></li>
+			<li><a class="link-3" href="links.html">Link's</a></li>
+			</ul>																			
+				</nav>
+			</div>
+			<div class="ml-auto col-12 col-sm-8 col-md-9">
+			
+					<div class="px-2 titulo">
+					FAQ's
+					</div>
+					<hr>			
+
+				
+<div class="subtitulo">
+					<u>Wireless:</u>
+					</div>
+					<div class="p3"><a href="#ssids">- Quais os SSID's da rede wireless da ESAC?</a></div>
+					<div class="p3"><a href="#protocolo">- Qual o protocolo de autenticação suportado na ESAC?</a></div>
+					<div class="p3"><a href="#configdhcp">- Qual a configuração DHCP do cliente?</a></div>
+					<div class="p3"><a href="#sosuport">- Quais os sistemas operativos suportados para 802.1x/PEAP?</a></div>
+					<div class="p3"><a href="#certificados">- Para que serve o certificado que tenho de instalar?</a></div>
+					<div class="p3"><a href="#placa">- Porque é que a minha placa, que funciona bem em casa e nos Hotspots, não funciona no e-U?</a></div>
+					<div class="p3"><a href="#xpsp12">- Porque é que preciso do Service Pack 1 ou 2 no Windows XP?</a></div>
+					<div class="p3"><a href="#logipass">- Porque é que só preciso inserir o meu login/password uma vez?</a></div>
+					<br></br>
+					<div class="subtitulo">
+					<u>VPN:</u>
+					</div>
+
+					<div class="p3"><a href="#redevpn">O que é uma rede VPN?</a></div>
+					<br></br>
+
+					<div class="subtitulo"><u>Wireless:</u></div>
+					<div class="subtitulo2" id="ssids">Quais os SSID's da rede wireless da ESAC?</div>
+					<p>Existem dois SSID's na rede wireless da ESAC : <b>eduroam-guest</b> e <b>eduroam</b>.
+					<br></br>
+					O SSID <b>eduroam-guest</b> é uma rede de acesso livre onde se encontram todas as configurações de acesso ao SSID principal <b>eduroam</b>. Apenas este último permite o acesso à Internet e está dotado de encriptação e acesso restrito.</p>
+					<br></br>
+					<div class="subtitulo2" id="protocolo">Qual o protocolo de autenticação suportado na ESAC?</div>
+					<p>Os utilizadores da ESAC apenas têm disponível o PEAP - MS-CHAP-V2. Os utilizadores visitantes devem consultar a sua Instituição para receber esta informação.</p>
+					<br></br>
+					<div class="subtitulo2" id="configdhcp">Qual a configuração DHCP do cliente?</div>
+					<p>A sua configuração de rede deverá estar em modo automático, uma vez que os parâmetros de rede são enviados por DHCP.</p>
+					<br></br>
+					<div class="subtitulo2" id="sosuport">Quais os sistemas operativos suportados para 802.1x/PEAP?</div>
+					<p>O 802.1x é suportado nativamente em Windows XP, Vista, MAC OS X 10.3. e versões mais recentes. Os restantes sistemas podem usar um cliente comercial.</p>
+					<br></br>
+					<div class="subtitulo2" id="certificados">Para que serve o certificado que tenho de instalar?</div>
+					<p>O certificado é um método de resguardo para o cliente de rede sem fios. Quando este se liga a um Ponto de acesso sem fios tem início um processo de autenticação com base no certificado. Este processo faz o cliente de rede sem fios assegura-se que a rede a que este se liga pertence realmente ao eduroam. Deste modo o cliente de rede sem fios com um certificado instalado, tem sempre a certeza que fica ligado a um ponto de acesso válido e não um outro qualquer pirata com o intuito de furtar palavras-chave.</p>
+					<br></br>
+					<div class="subtitulo2" id="placa">Porque é que a minha placa, que funciona bem em casa e nos Hotspots, não funciona no eduroam?</div>
+					<p>Os pontos de acesso da ESAC têm de obedecer a normas de segurança regulamentadas no projecto eduroam. Na maior parte das vezes essas normas de segurança não são as vulgares e inseguras utilizadas em Hotspots ou redes domésticas. O método utilizado para estabelecer uma ligação de rede sem fios da ESAC é o mais seguro possível comummente praticável. É normal muitas das placas de rede sem fios não utilizarem os procedimentos mais recentes. É por este facto que é necessário fazer a actualização dos drivers da placa de rede sem fios para o mais recente possível, de modo a que as últimas normas sejam utilizadas.</p>
+					<br></br>
+					<div class="subtitulo2" id="xpsp12">Porque é que preciso do Service Pack 2 no Windows XP?</div>
+					<p>O Service Pack é um conjunto de correcções e actualizações para o sistema operativo. Nesta actualização é oferecido um mecanismo intuitivo para configurar a placa de rede sem fios, bem como, as mais recentes actualizações das normas utilizadas na ligação aos pontos de acesso eduroam, nomeadamente o 802.1x.</p>
+					<br></br>
+					<div class="subtitulo2" id="logipass">Porque é que só preciso inserir o meu login/password uma vez?</div>
+					<p>Após o primeiro sucesso de autenticação na rede sem fios, o sistema operativo Windows XP, armazena automaticamente as credenciais (login/password) da conta. Nos acessos seguintes o login e password não voltam a ser pedidos. Se quiser alterar o seu login/password pode consultar o link abaixo para limpar as credenciais da cache do registo do Windows XP.<br></br>
+					Para mais informações pode consultar este link: <a href="http://support.microsoft.com/default.aspx?scid=kb;en-us;823731"><p3 style="color:blue">http://support.microsoft.com/default.aspx?scid=kb;en-us;823731</p3></a>
+					<br></br><br></br>
+					<div class="subtitulo"><u>VPN</u></div>
+					<div class="subtitulo2" id="redevpn">O que é uma rede VPN?</div>
+					<p>Uma rede VPN é uma rede privada virtual que possibilita o acesso à rede wireless da ESAC a partir de uma ligação à Internet.
+					<p>As VPN's utilizam tecnologias de segurança que garantem a autenticação, a confidencialidade e a integridade nas comunicações.</p>
+					<p>A ESAC disponibiliza aos seus utilizadores uma solução de VPN.</p>
+
+
+			</div>
+
+				
+			</div>
+		</div>
+</div>
+
+<!--Espaçamento conteudo e footer -->
+<div class="clearfix" style="height:3rem;"> 
+</div>
+
+
+<footer>
+  <div class="container"> <h6>© 2017, Escola Superior Agrária de Coimbra.</h6>
+  </div>
+</footer>
+
+
+<!-- NAVBAR SCRIPT-->
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "500px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,231 @@
+body 
+	{
+	font-size: 100%;
+	font-family: Helvetica;
+	line-height: 1.6875;
+	}
+
+.navbar /*class*/
+	{ 
+	background-color: green;
+	height:100px;
+	}
+
+#logo1
+	{
+    height: calc(100% - 1rem);
+    padding: 1rem 0;
+	}
+
+#logo2
+    {
+    height: calc(100% - 1rem);
+    padding: 1rem 0;
+	}
+
+h2
+    {
+	visibility: hidden;
+    }
+
+h6
+	{
+	font-size: 90%;
+	font-family: Helvetica;
+	color:white;
+	}
+
+.titulo 
+	{
+	font-size: 24px;
+	margin-top: 135px;
+	} 
+
+.subtitulo
+{
+	font-size: 18px;
+	/*top right bottom left*/
+	margin: 0px 0px 0px 15px;
+}
+
+.subtitulo2
+{
+	font-size: 14px;
+	/*top right bottom left*/
+	margin: 5px 0px 0px 45px;
+	font-weight: bold;}
+
+
+
+hr { 
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+p 
+	{
+	font-size: 12px;
+
+	/*top right bottom left*/
+	margin: 0px 0px 0px 15px;
+	}
+
+/*USADO EM configuração.html, links.html*/
+.p2
+	{
+	font-size: 11px;
+	color:blue;
+	/*top right bottom left*/
+	margin: 15px 0px 0px 50px;
+	line-height:5;
+	}
+
+/*USADO EM faqs.html*/
+.p3{
+	font-size: 12px;
+	color:blue;
+	/*top right bottom left*/
+	margin: 0px 0px 0px 40px;
+	line-height: 3;
+    height: inherit
+	}
+
+/*USADO EM condições.html*/
+.p4{
+	/*top right bottom left*/
+	margin: 30px 0px 0px 150px;
+}
+
+/*USADO EM condições.html*/
+.p5{
+	font-size: 12px;
+	/*top right bottom left*/
+	margin: 5px 0px 0px 45px;
+}
+
+/*USADO EM condições.html,*/
+.p6{
+	font-size: 12px;
+	/*top right bottom left*/
+	margin: 5px 0px 0px 60px;
+
+}
+
+
+.p7{
+	font-size: 12px;
+	/*top right bottom left*/
+	margin: 5px 0px 0px 10px;
+	width: inherit;
+}
+
+
+/*Navbar esquerda*/
+nav{
+	background: green;
+	/*top right bottom left*/
+	padding: 15px 0 15px 35px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	/*top-left top-right bottom-right bottom-left*/
+	border-radius: 7.5px 7.5px 7.5px 7.5px;
+    width: 100%;
+	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*espacamento linha*/line-height: 300%;
+
+}
+
+#menu{
+    position: fixed;
+	margin-top:125px;
+	font-size: 12px;
+}
+
+/*Navbar top*/
+#mainNav{
+	border-radius: 0px 0px 0px 0px;
+}
+
+#nav-3 
+	{
+	padding-left: 0px;
+	padding-right: 10px;
+	}
+
+.link-3 
+	{
+  transition: 0.2s;
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+	}
+
+footer
+	{
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:25px;
+	width:100%;
+	background:green;
+	text-align: center;
+	font-size: 12px;
+	}
+
+
+
+/*------------------ Side Bar ------------------*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+    margin-top: 100px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
